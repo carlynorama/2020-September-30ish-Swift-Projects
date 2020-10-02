@@ -49,7 +49,7 @@ There are other places/articles that were very helpful but these are the majors.
   18. Move through work by Carmen Herrera with Tabs
   19. Move through work by Carmen Herrera with a Scroll View
   20. Move through work by Carmen Herrera with a Scroll View 2
-  21. Basic Quote Server - Ray Wenderlich Example Verbatim
+  21. Basic Quote Server - [raywenderlich.com Simple Guide to Async](https://www.raywenderlich.com/1124580-swiftnio-a-simple-guide-to-async-on-the-server) example pretty much verbatim 
   22. MQTT Hello World
   23. MQTT 2 Sliders and a Text Box
 
