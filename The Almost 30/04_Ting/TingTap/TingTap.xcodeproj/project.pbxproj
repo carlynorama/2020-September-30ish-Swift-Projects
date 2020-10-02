@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA7DEDC3250156C40057B410 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DEDC2250156C40057B410 /* AppDelegate.swift */; };
+		DA7DEDC5250156C40057B410 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DEDC4250156C40057B410 /* SceneDelegate.swift */; };
+		DA7DEDC7250156C40057B410 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DEDC6250156C40057B410 /* HomeView.swift */; };
+		DA7DEDC9250156C50057B410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7DEDC8250156C50057B410 /* Assets.xcassets */; };
+		DA7DEDCC250156C50057B410 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7DEDCB250156C50057B410 /* Preview Assets.xcassets */; };
+		DA7DEDCF250156C50057B410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7DEDCD250156C50057B410 /* LaunchScreen.storyboard */; };
+		DA7DEDD7250156E60057B410 /* Ting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DEDD6250156E60057B410 /* Ting.swift */; };
+		DA7DEDD92501579B0057B410 /* TingLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DEDD82501579B0057B410 /* TingLog.swift */; };
+		DA7DEDDB250157DA0057B410 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DEDDA250157DA0057B410 /* FileManager.swift */; };
+		DA7DEDDD250158870057B410 /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DEDDC250158870057B410 /* ButtonModifiers.swift */; };
+		DA7DEDDF2501597F0057B410 /* TingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DEDDE2501597F0057B410 /* TingRow.swift */; };
+		DA7DEDE125015A2E0057B410 /* TingHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DEDE025015A2E0057B410 /* TingHistoryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA7DEDBF250156C40057B410 /* TingTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TingTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7DEDC2250156C40057B410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA7DEDC4250156C40057B410 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DA7DEDC6250156C40057B410 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DA7DEDC8250156C50057B410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA7DEDCB250156C50057B410 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA7DEDCE250156C50057B410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA7DEDD0250156C50057B410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA7DEDD6250156E60057B410 /* Ting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ting.swift; sourceTree = SOURCE_ROOT; };
+		DA7DEDD82501579B0057B410 /* TingLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TingLog.swift; sourceTree = "<group>"; };
+		DA7DEDDA250157DA0057B410 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		DA7DEDDC250158870057B410 /* ButtonModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifiers.swift; sourceTree = "<group>"; };
+		DA7DEDDE2501597F0057B410 /* TingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TingRow.swift; sourceTree = "<group>"; };
+		DA7DEDE025015A2E0057B410 /* TingHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TingHistoryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA7DEDBC250156C40057B410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA7DEDB6250156C40057B410 = {
+			isa = PBXGroup;
+			children = (
+				DA7DEDC1250156C40057B410 /* TingTap */,
+				DA7DEDC0250156C40057B410 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA7DEDC0250156C40057B410 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA7DEDBF250156C40057B410 /* TingTap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA7DEDC1250156C40057B410 /* TingTap */ = {
+			isa = PBXGroup;
+			children = (
+				DA7DEDD6250156E60057B410 /* Ting.swift */,
+				DA7DEDD82501579B0057B410 /* TingLog.swift */,
+				DA7DEDDA250157DA0057B410 /* FileManager.swift */,
+				DA7DEDC2250156C40057B410 /* AppDelegate.swift */,
+				DA7DEDC4250156C40057B410 /* SceneDelegate.swift */,
+				DA7DEDC6250156C40057B410 /* HomeView.swift */,
+				DA7DEDDE2501597F0057B410 /* TingRow.swift */,
+				DA7DEDE025015A2E0057B410 /* TingHistoryView.swift */,
+				DA7DEDDC250158870057B410 /* ButtonModifiers.swift */,
+				DA7DEDC8250156C50057B410 /* Assets.xcassets */,
+				DA7DEDCD250156C50057B410 /* LaunchScreen.storyboard */,
+				DA7DEDD0250156C50057B410 /* Info.plist */,
+				DA7DEDCA250156C50057B410 /* Preview Content */,
+			);
+			path = TingTap;
+			sourceTree = "<group>";
+		};
+		DA7DEDCA250156C50057B410 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA7DEDCB250156C50057B410 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA7DEDBE250156C40057B410 /* TingTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA7DEDD3250156C50057B410 /* Build configuration list for PBXNativeTarget "TingTap" */;
+			buildPhases = (
+				DA7DEDBB250156C40057B410 /* Sources */,
+				DA7DEDBC250156C40057B410 /* Frameworks */,
+				DA7DEDBD250156C40057B410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TingTap;
+			productName = TingTap;
+			productReference = DA7DEDBF250156C40057B410 /* TingTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA7DEDB7250156C40057B410 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = carlynorama;
+				TargetAttributes = {
+					DA7DEDBE250156C40057B410 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = DA7DEDBA250156C40057B410 /* Build configuration list for PBXProject "TingTap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA7DEDB6250156C40057B410;
+			productRefGroup = DA7DEDC0250156C40057B410 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA7DEDBE250156C40057B410 /* TingTap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA7DEDBD250156C40057B410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7DEDCF250156C50057B410 /* LaunchScreen.storyboard in Resources */,
+				DA7DEDCC250156C50057B410 /* Preview Assets.xcassets in Resources */,
+				DA7DEDC9250156C50057B410 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA7DEDBB250156C40057B410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7DEDDD250158870057B410 /* ButtonModifiers.swift in Sources */,
+				DA7DEDC3250156C40057B410 /* AppDelegate.swift in Sources */,
+				DA7DEDE125015A2E0057B410 /* TingHistoryView.swift in Sources */,
+				DA7DEDDF2501597F0057B410 /* TingRow.swift in Sources */,
+				DA7DEDC5250156C40057B410 /* SceneDelegate.swift in Sources */,
+				DA7DEDD92501579B0057B410 /* TingLog.swift in Sources */,
+				DA7DEDDB250157DA0057B410 /* FileManager.swift in Sources */,
+				DA7DEDC7250156C40057B410 /* HomeView.swift in Sources */,
+				DA7DEDD7250156E60057B410 /* Ting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA7DEDCD250156C50057B410 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA7DEDCE250156C50057B410 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA7DEDD1250156C50057B410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA7DEDD2250156C50057B410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA7DEDD4250156C50057B410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TingTap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TingTap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = carlynorama.TingTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA7DEDD5250156C50057B410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TingTap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TingTap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = carlynorama.TingTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA7DEDBA250156C40057B410 /* Build configuration list for PBXProject "TingTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7DEDD1250156C50057B410 /* Debug */,
+				DA7DEDD2250156C50057B410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA7DEDD3250156C50057B410 /* Build configuration list for PBXNativeTarget "TingTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7DEDD4250156C50057B410 /* Debug */,
+				DA7DEDD5250156C50057B410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA7DEDB7250156C40057B410 /* Project object */;
+}
