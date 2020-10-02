@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D27877C82513D58200FFC34A /* CarmenHerreraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27877C72513D58200FFC34A /* CarmenHerreraApp.swift */; };
+		D27877CA2513D58200FFC34A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27877C92513D58200FFC34A /* ContentView.swift */; };
+		D27877CC2513D58300FFC34A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27877CB2513D58300FFC34A /* Assets.xcassets */; };
+		D27877CF2513D58300FFC34A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27877CE2513D58300FFC34A /* Preview Assets.xcassets */; };
+		D27877DA2513D58300FFC34A /* CarmenHerreraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27877D92513D58300FFC34A /* CarmenHerreraTests.swift */; };
+		D27877E52513D58300FFC34A /* CarmenHerreraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27877E42513D58300FFC34A /* CarmenHerreraUITests.swift */; };
+		D27878012513D5B200FFC34A /* WorksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27877F52513D5B200FFC34A /* WorksData.swift */; };
+		D27878022513D5B200FFC34A /* WorkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27877F62513D5B200FFC34A /* WorkDetailView.swift */; };
+		D27878032513D5B200FFC34A /* GradientParade.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27877F82513D5B200FFC34A /* GradientParade.swift */; };
+		D27878042513D5B200FFC34A /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27877F92513D5B200FFC34A /* Shapes.swift */; };
+		D27878052513D5B200FFC34A /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27877FA2513D5B200FFC34A /* Work.swift */; };
+		D27878062513D5B200FFC34A /* Untitled1952.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27877FC2513D5B200FFC34A /* Untitled1952.swift */; };
+		D27878072513D5B200FFC34A /* BlancoYVerde.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27877FD2513D5B200FFC34A /* BlancoYVerde.swift */; };
+		D27878082513D5B200FFC34A /* Radial.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27877FE2513D5B200FFC34A /* Radial.swift */; };
+		D27878092513D5B200FFC34A /* Rondo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27877FF2513D5B200FFC34A /* Rondo.swift */; };
+		D278780A2513D5B200FFC34A /* untitled2017.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27878002513D5B200FFC34A /* untitled2017.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D27877D62513D58300FFC34A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D27877BC2513D58100FFC34A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D27877C32513D58100FFC34A;
+			remoteInfo = CarmenHerrera;
+		};
+		D27877E12513D58300FFC34A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D27877BC2513D58100FFC34A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D27877C32513D58100FFC34A;
+			remoteInfo = CarmenHerrera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D27877C42513D58100FFC34A /* CarmenHerrera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarmenHerrera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27877C72513D58200FFC34A /* CarmenHerreraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarmenHerreraApp.swift; sourceTree = "<group>"; };
+		D27877C92513D58200FFC34A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D27877CB2513D58300FFC34A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D27877CE2513D58300FFC34A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D27877D02513D58300FFC34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27877D52513D58300FFC34A /* CarmenHerreraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarmenHerreraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27877D92513D58300FFC34A /* CarmenHerreraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarmenHerreraTests.swift; sourceTree = "<group>"; };
+		D27877DB2513D58300FFC34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27877E02513D58300FFC34A /* CarmenHerreraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarmenHerreraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27877E42513D58300FFC34A /* CarmenHerreraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarmenHerreraUITests.swift; sourceTree = "<group>"; };
+		D27877E62513D58300FFC34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27877F52513D5B200FFC34A /* WorksData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorksData.swift; sourceTree = "<group>"; };
+		D27877F62513D5B200FFC34A /* WorkDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkDetailView.swift; sourceTree = "<group>"; };
+		D27877F82513D5B200FFC34A /* GradientParade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientParade.swift; sourceTree = "<group>"; };
+		D27877F92513D5B200FFC34A /* Shapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		D27877FA2513D5B200FFC34A /* Work.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		D27877FC2513D5B200FFC34A /* Untitled1952.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Untitled1952.swift; sourceTree = "<group>"; };
+		D27877FD2513D5B200FFC34A /* BlancoYVerde.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlancoYVerde.swift; sourceTree = "<group>"; };
+		D27877FE2513D5B200FFC34A /* Radial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Radial.swift; sourceTree = "<group>"; };
+		D27877FF2513D5B200FFC34A /* Rondo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rondo.swift; sourceTree = "<group>"; };
+		D27878002513D5B200FFC34A /* untitled2017.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = untitled2017.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D27877C12513D58100FFC34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27877D22513D58300FFC34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27877DD2513D58300FFC34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D27877BB2513D58100FFC34A = {
+			isa = PBXGroup;
+			children = (
+				D27877C62513D58100FFC34A /* CarmenHerrera */,
+				D27877D82513D58300FFC34A /* CarmenHerreraTests */,
+				D27877E32513D58300FFC34A /* CarmenHerreraUITests */,
+				D27877C52513D58100FFC34A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D27877C52513D58100FFC34A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D27877C42513D58100FFC34A /* CarmenHerrera.app */,
+				D27877D52513D58300FFC34A /* CarmenHerreraTests.xctest */,
+				D27877E02513D58300FFC34A /* CarmenHerreraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D27877C62513D58100FFC34A /* CarmenHerrera */ = {
+			isa = PBXGroup;
+			children = (
+				D27877F72513D5B200FFC34A /* SupportFiles */,
+				D27877FA2513D5B200FFC34A /* Work.swift */,
+				D27877F62513D5B200FFC34A /* WorkDetailView.swift */,
+				D27877FB2513D5B200FFC34A /* Works */,
+				D27877F52513D5B200FFC34A /* WorksData.swift */,
+				D27877C72513D58200FFC34A /* CarmenHerreraApp.swift */,
+				D27877C92513D58200FFC34A /* ContentView.swift */,
+				D27877CB2513D58300FFC34A /* Assets.xcassets */,
+				D27877D02513D58300FFC34A /* Info.plist */,
+				D27877CD2513D58300FFC34A /* Preview Content */,
+			);
+			path = CarmenHerrera;
+			sourceTree = "<group>";
+		};
+		D27877CD2513D58300FFC34A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D27877CE2513D58300FFC34A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D27877D82513D58300FFC34A /* CarmenHerreraTests */ = {
+			isa = PBXGroup;
+			children = (
+				D27877D92513D58300FFC34A /* CarmenHerreraTests.swift */,
+				D27877DB2513D58300FFC34A /* Info.plist */,
+			);
+			path = CarmenHerreraTests;
+			sourceTree = "<group>";
+		};
+		D27877E32513D58300FFC34A /* CarmenHerreraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D27877E42513D58300FFC34A /* CarmenHerreraUITests.swift */,
+				D27877E62513D58300FFC34A /* Info.plist */,
+			);
+			path = CarmenHerreraUITests;
+			sourceTree = "<group>";
+		};
+		D27877F72513D5B200FFC34A /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D27877F82513D5B200FFC34A /* GradientParade.swift */,
+				D27877F92513D5B200FFC34A /* Shapes.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		D27877FB2513D5B200FFC34A /* Works */ = {
+			isa = PBXGroup;
+			children = (
+				D27877FC2513D5B200FFC34A /* Untitled1952.swift */,
+				D27877FD2513D5B200FFC34A /* BlancoYVerde.swift */,
+				D27877FE2513D5B200FFC34A /* Radial.swift */,
+				D27877FF2513D5B200FFC34A /* Rondo.swift */,
+				D27878002513D5B200FFC34A /* untitled2017.swift */,
+			);
+			path = Works;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D27877C32513D58100FFC34A /* CarmenHerrera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27877E92513D58300FFC34A /* Build configuration list for PBXNativeTarget "CarmenHerrera" */;
+			buildPhases = (
+				D27877C02513D58100FFC34A /* Sources */,
+				D27877C12513D58100FFC34A /* Frameworks */,
+				D27877C22513D58100FFC34A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarmenHerrera;
+			productName = CarmenHerrera;
+			productReference = D27877C42513D58100FFC34A /* CarmenHerrera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D27877D42513D58300FFC34A /* CarmenHerreraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27877EC2513D58300FFC34A /* Build configuration list for PBXNativeTarget "CarmenHerreraTests" */;
+			buildPhases = (
+				D27877D12513D58300FFC34A /* Sources */,
+				D27877D22513D58300FFC34A /* Frameworks */,
+				D27877D32513D58300FFC34A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D27877D72513D58300FFC34A /* PBXTargetDependency */,
+			);
+			name = CarmenHerreraTests;
+			productName = CarmenHerreraTests;
+			productReference = D27877D52513D58300FFC34A /* CarmenHerreraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D27877DF2513D58300FFC34A /* CarmenHerreraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27877EF2513D58300FFC34A /* Build configuration list for PBXNativeTarget "CarmenHerreraUITests" */;
+			buildPhases = (
+				D27877DC2513D58300FFC34A /* Sources */,
+				D27877DD2513D58300FFC34A /* Frameworks */,
+				D27877DE2513D58300FFC34A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D27877E22513D58300FFC34A /* PBXTargetDependency */,
+			);
+			name = CarmenHerreraUITests;
+			productName = CarmenHerreraUITests;
+			productReference = D27877E02513D58300FFC34A /* CarmenHerreraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D27877BC2513D58100FFC34A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D27877C32513D58100FFC34A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					D27877D42513D58300FFC34A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D27877C32513D58100FFC34A;
+					};
+					D27877DF2513D58300FFC34A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D27877C32513D58100FFC34A;
+					};
+				};
+			};
+			buildConfigurationList = D27877BF2513D58100FFC34A /* Build configuration list for PBXProject "CarmenHerrera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D27877BB2513D58100FFC34A;
+			productRefGroup = D27877C52513D58100FFC34A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D27877C32513D58100FFC34A /* CarmenHerrera */,
+				D27877D42513D58300FFC34A /* CarmenHerreraTests */,
+				D27877DF2513D58300FFC34A /* CarmenHerreraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D27877C22513D58100FFC34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27877CF2513D58300FFC34A /* Preview Assets.xcassets in Resources */,
+				D27877CC2513D58300FFC34A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27877D32513D58300FFC34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27877DE2513D58300FFC34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27877C02513D58100FFC34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27878072513D5B200FFC34A /* BlancoYVerde.swift in Sources */,
+				D27878092513D5B200FFC34A /* Rondo.swift in Sources */,
+				D27878022513D5B200FFC34A /* WorkDetailView.swift in Sources */,
+				D27878082513D5B200FFC34A /* Radial.swift in Sources */,
+				D27878052513D5B200FFC34A /* Work.swift in Sources */,
+				D27877CA2513D58200FFC34A /* ContentView.swift in Sources */,
+				D27878012513D5B200FFC34A /* WorksData.swift in Sources */,
+				D27877C82513D58200FFC34A /* CarmenHerreraApp.swift in Sources */,
+				D278780A2513D5B200FFC34A /* untitled2017.swift in Sources */,
+				D27878032513D5B200FFC34A /* GradientParade.swift in Sources */,
+				D27878042513D5B200FFC34A /* Shapes.swift in Sources */,
+				D27878062513D5B200FFC34A /* Untitled1952.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27877D12513D58300FFC34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27877DA2513D58300FFC34A /* CarmenHerreraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27877DC2513D58300FFC34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27877E52513D58300FFC34A /* CarmenHerreraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D27877D72513D58300FFC34A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D27877C32513D58100FFC34A /* CarmenHerrera */;
+			targetProxy = D27877D62513D58300FFC34A /* PBXContainerItemProxy */;
+		};
+		D27877E22513D58300FFC34A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D27877C32513D58100FFC34A /* CarmenHerrera */;
+			targetProxy = D27877E12513D58300FFC34A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D27877E72513D58300FFC34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D27877E82513D58300FFC34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D27877EA2513D58300FFC34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CarmenHerrera/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CarmenHerrera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlynorama.CarmenHerrera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D27877EB2513D58300FFC34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CarmenHerrera/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CarmenHerrera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlynorama.CarmenHerrera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D27877ED2513D58300FFC34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarmenHerreraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlynorama.CarmenHerreraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarmenHerrera.app/CarmenHerrera";
+			};
+			name = Debug;
+		};
+		D27877EE2513D58300FFC34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarmenHerreraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlynorama.CarmenHerreraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarmenHerrera.app/CarmenHerrera";
+			};
+			name = Release;
+		};
+		D27877F02513D58300FFC34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarmenHerreraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlynorama.CarmenHerreraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarmenHerrera;
+			};
+			name = Debug;
+		};
+		D27877F12513D58300FFC34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarmenHerreraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlynorama.CarmenHerreraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarmenHerrera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D27877BF2513D58100FFC34A /* Build configuration list for PBXProject "CarmenHerrera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27877E72513D58300FFC34A /* Debug */,
+				D27877E82513D58300FFC34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27877E92513D58300FFC34A /* Build configuration list for PBXNativeTarget "CarmenHerrera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27877EA2513D58300FFC34A /* Debug */,
+				D27877EB2513D58300FFC34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27877EC2513D58300FFC34A /* Build configuration list for PBXNativeTarget "CarmenHerreraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27877ED2513D58300FFC34A /* Debug */,
+				D27877EE2513D58300FFC34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27877EF2513D58300FFC34A /* Build configuration list for PBXNativeTarget "CarmenHerreraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27877F02513D58300FFC34A /* Debug */,
+				D27877F12513D58300FFC34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D27877BC2513D58100FFC34A /* Project object */;
+}
