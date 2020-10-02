@@ -53,6 +53,7 @@ There are other places/articles that were very helpful but these are the majors.
   22. MQTT Hello World
   23. MQTT 2 Sliders and a Text Box
 
+22 and 23 also live at https://github.com/carlynorama/MQTT-Companions
 
  ## The Scratch Pads
 
