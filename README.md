@@ -16,7 +16,7 @@ Wear bug spray.
 - https://blog.crashspace.org/2020/09/dfn-happy-hour-no-18-september-projects-begin/
 - https://blog.crashspace.org/2020/09/dfn-happy-hour-no-19-september-projects-part-ii/
 - https://blog.crashspace.org/2020/09/dfn-happy-hour-no-20-september-projects-part-iii/
-- part iv pending
+- https://blog.crashspace.org/2020/10/dfn-happy-hour-no-21-september-projects-part-iv/
 
 ## Reference Links
 
@@ -49,7 +49,7 @@ There are other places/articles that were very helpful but these are the majors.
   18. Move through work by Carmen Herrera with Tabs
   19. Move through work by Carmen Herrera with a Scroll View
   20. Move through work by Carmen Herrera with a Scroll View 2
-  21. Basic Quote Server - [raywenderlich.com Simple Guide to Async](https://www.raywenderlich.com/1124580-swiftnio-a-simple-guide-to-async-on-the-server) example pretty much verbatim 
+  21. Basic Quote Server - [raywenderlich.com Simple Guide to Async](https://www.raywenderlich.com/1124580-swiftnio-a-simple-guide-to-async-on-the-server) example pretty much verbatim
   22. MQTT Hello World
   23. MQTT 2 Sliders and a Text Box
 
