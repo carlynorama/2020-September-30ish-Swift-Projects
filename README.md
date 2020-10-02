@@ -28,7 +28,7 @@ There are other places/articles that were very helpful but these are the majors.
 - https://stackoverflow.com/questions/tagged/swift
 
 ## The 30
-/*:
+
   1. What Day Is It (Command Line)
   2. What Day Is It iOS
   3. What Day Is It - iOS a little prettier
@@ -52,11 +52,10 @@ There are other places/articles that were very helpful but these are the majors.
   21. Basic Quote Server - Ray Wenderlich Example Verbatim
   22. MQTT Hello World
   23. MQTT 2 Sliders and a Text Box
- */
+
 
  ## The Scratch Pads
- /*
+
    1. Buttons and Styles - lots of button / button style examples
    2. Drawing Palooza - swift UI for drawing
    3. Fancy Scrolls - Learning how to build horizontally scrolling views
- */
