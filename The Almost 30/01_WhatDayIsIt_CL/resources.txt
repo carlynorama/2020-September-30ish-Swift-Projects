@@ -1,0 +1,4 @@
+https://www.raywenderlich.com/5027-scripting-in-swift-writing-a-script
+https://www.raywenderlich.com/4979-scripting-in-swift-managing-dependencies
+
+see the RWTutorials folder for the download files
