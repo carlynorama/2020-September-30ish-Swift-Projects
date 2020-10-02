@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D27AE37C250C3C77002DECAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27AE37B250C3C77002DECAE /* AppDelegate.swift */; };
+		D27AE37E250C3C77002DECAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27AE37D250C3C77002DECAE /* SceneDelegate.swift */; };
+		D27AE380250C3C77002DECAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27AE37F250C3C77002DECAE /* ContentView.swift */; };
+		D27AE382250C3C79002DECAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27AE381250C3C79002DECAE /* Assets.xcassets */; };
+		D27AE385250C3C79002DECAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27AE384250C3C79002DECAE /* Preview Assets.xcassets */; };
+		D27AE388250C3C79002DECAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27AE386250C3C79002DECAE /* LaunchScreen.storyboard */; };
+		D27AE3A0250C3C8B002DECAE /* Mushroom Picker Dance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D27AE397250C3C8B002DECAE /* Mushroom Picker Dance.mp3 */; };
+		D27AE3A1250C3C8B002DECAE /* So Hard To Say Goodbye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D27AE398250C3C8B002DECAE /* So Hard To Say Goodbye.m4a */; };
+		D27AE3A2250C3C8B002DECAE /* Flying Home.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D27AE399250C3C8B002DECAE /* Flying Home.m4a */; };
+		D27AE3AA250C3D23002DECAE /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27AE3A4250C3D23002DECAE /* Song.swift */; };
+		D27AE3AB250C3D23002DECAE /* MetroSongHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27AE3A5250C3D23002DECAE /* MetroSongHandler.swift */; };
+		D27AE3AC250C3D23002DECAE /* PlayStopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27AE3A6250C3D23002DECAE /* PlayStopButton.swift */; };
+		D27AE3AD250C3D23002DECAE /* SongMetaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27AE3A7250C3D23002DECAE /* SongMetaView.swift */; };
+		D27AE3AE250C3D23002DECAE /* SongHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27AE3A8250C3D23002DECAE /* SongHandler.swift */; };
+		D27AE3AF250C3D23002DECAE /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27AE3A9250C3D23002DECAE /* SongView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D27AE378250C3C77002DECAE /* Metros_SingleButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metros_SingleButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27AE37B250C3C77002DECAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D27AE37D250C3C77002DECAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D27AE37F250C3C77002DECAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D27AE381250C3C79002DECAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D27AE384250C3C79002DECAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D27AE387250C3C79002DECAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D27AE389250C3C79002DECAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27AE397250C3C8B002DECAE /* Mushroom Picker Dance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mushroom Picker Dance.mp3"; sourceTree = "<group>"; };
+		D27AE398250C3C8B002DECAE /* So Hard To Say Goodbye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "So Hard To Say Goodbye.m4a"; sourceTree = "<group>"; };
+		D27AE399250C3C8B002DECAE /* Flying Home.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flying Home.m4a"; sourceTree = "<group>"; };
+		D27AE3A4250C3D23002DECAE /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		D27AE3A5250C3D23002DECAE /* MetroSongHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetroSongHandler.swift; sourceTree = "<group>"; };
+		D27AE3A6250C3D23002DECAE /* PlayStopButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayStopButton.swift; sourceTree = "<group>"; };
+		D27AE3A7250C3D23002DECAE /* SongMetaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongMetaView.swift; sourceTree = "<group>"; };
+		D27AE3A8250C3D23002DECAE /* SongHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongHandler.swift; sourceTree = "<group>"; };
+		D27AE3A9250C3D23002DECAE /* SongView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D27AE375250C3C77002DECAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D27AE36F250C3C77002DECAE = {
+			isa = PBXGroup;
+			children = (
+				D27AE37A250C3C77002DECAE /* Metros_SingleButton */,
+				D27AE379250C3C77002DECAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D27AE379250C3C77002DECAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D27AE378250C3C77002DECAE /* Metros_SingleButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D27AE37A250C3C77002DECAE /* Metros_SingleButton */ = {
+			isa = PBXGroup;
+			children = (
+				D27AE3A3250C3D23002DECAE /* SongHandling */,
+				D27AE396250C3C8B002DECAE /* Resources */,
+				D27AE37B250C3C77002DECAE /* AppDelegate.swift */,
+				D27AE37D250C3C77002DECAE /* SceneDelegate.swift */,
+				D27AE37F250C3C77002DECAE /* ContentView.swift */,
+				D27AE381250C3C79002DECAE /* Assets.xcassets */,
+				D27AE386250C3C79002DECAE /* LaunchScreen.storyboard */,
+				D27AE389250C3C79002DECAE /* Info.plist */,
+				D27AE383250C3C79002DECAE /* Preview Content */,
+			);
+			path = Metros_SingleButton;
+			sourceTree = "<group>";
+		};
+		D27AE383250C3C79002DECAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D27AE384250C3C79002DECAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D27AE396250C3C8B002DECAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D27AE397250C3C8B002DECAE /* Mushroom Picker Dance.mp3 */,
+				D27AE398250C3C8B002DECAE /* So Hard To Say Goodbye.m4a */,
+				D27AE399250C3C8B002DECAE /* Flying Home.m4a */,
+			);
+			name = Resources;
+			path = "../../../../11_MetrosIndividualPlay/Metros - Individual Play Buttons/Metros/Metros/Resources";
+			sourceTree = "<group>";
+		};
+		D27AE3A3250C3D23002DECAE /* SongHandling */ = {
+			isa = PBXGroup;
+			children = (
+				D27AE3A4250C3D23002DECAE /* Song.swift */,
+				D27AE3A5250C3D23002DECAE /* MetroSongHandler.swift */,
+				D27AE3A6250C3D23002DECAE /* PlayStopButton.swift */,
+				D27AE3A7250C3D23002DECAE /* SongMetaView.swift */,
+				D27AE3A8250C3D23002DECAE /* SongHandler.swift */,
+				D27AE3A9250C3D23002DECAE /* SongView.swift */,
+			);
+			path = SongHandling;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D27AE377250C3C77002DECAE /* Metros_SingleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27AE38C250C3C79002DECAE /* Build configuration list for PBXNativeTarget "Metros_SingleButton" */;
+			buildPhases = (
+				D27AE374250C3C77002DECAE /* Sources */,
+				D27AE375250C3C77002DECAE /* Frameworks */,
+				D27AE376250C3C77002DECAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Metros_SingleButton;
+			productName = Metros_SingleButton;
+			productReference = D27AE378250C3C77002DECAE /* Metros_SingleButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D27AE370250C3C77002DECAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = carlynorama;
+				TargetAttributes = {
+					D27AE377250C3C77002DECAE = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = D27AE373250C3C77002DECAE /* Build configuration list for PBXProject "Metros_SingleButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D27AE36F250C3C77002DECAE;
+			productRefGroup = D27AE379250C3C77002DECAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D27AE377250C3C77002DECAE /* Metros_SingleButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D27AE376250C3C77002DECAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27AE388250C3C79002DECAE /* LaunchScreen.storyboard in Resources */,
+				D27AE3A2250C3C8B002DECAE /* Flying Home.m4a in Resources */,
+				D27AE385250C3C79002DECAE /* Preview Assets.xcassets in Resources */,
+				D27AE3A0250C3C8B002DECAE /* Mushroom Picker Dance.mp3 in Resources */,
+				D27AE382250C3C79002DECAE /* Assets.xcassets in Resources */,
+				D27AE3A1250C3C8B002DECAE /* So Hard To Say Goodbye.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27AE374250C3C77002DECAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27AE3AF250C3D23002DECAE /* SongView.swift in Sources */,
+				D27AE3AB250C3D23002DECAE /* MetroSongHandler.swift in Sources */,
+				D27AE3AE250C3D23002DECAE /* SongHandler.swift in Sources */,
+				D27AE3AA250C3D23002DECAE /* Song.swift in Sources */,
+				D27AE37C250C3C77002DECAE /* AppDelegate.swift in Sources */,
+				D27AE37E250C3C77002DECAE /* SceneDelegate.swift in Sources */,
+				D27AE380250C3C77002DECAE /* ContentView.swift in Sources */,
+				D27AE3AC250C3D23002DECAE /* PlayStopButton.swift in Sources */,
+				D27AE3AD250C3D23002DECAE /* SongMetaView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D27AE386250C3C79002DECAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27AE387250C3C79002DECAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D27AE38A250C3C79002DECAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D27AE38B250C3C79002DECAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D27AE38D250C3C79002DECAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Metros_SingleButton/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Metros_SingleButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carlynorama.Metros-SingleButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D27AE38E250C3C79002DECAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Metros_SingleButton/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Metros_SingleButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carlynorama.Metros-SingleButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D27AE373250C3C77002DECAE /* Build configuration list for PBXProject "Metros_SingleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27AE38A250C3C79002DECAE /* Debug */,
+				D27AE38B250C3C79002DECAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27AE38C250C3C79002DECAE /* Build configuration list for PBXNativeTarget "Metros_SingleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27AE38D250C3C79002DECAE /* Debug */,
+				D27AE38E250C3C79002DECAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D27AE370250C3C77002DECAE /* Project object */;
+}
